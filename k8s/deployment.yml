@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: web2048-autoscaler
-        image: alexwhen/docker-2048:latest
+        image: saxenavijay62/web2048-autoscaler:latest
         ports:
         - containerPort: 80
         resources:
