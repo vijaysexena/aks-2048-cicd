@@ -16,9 +16,9 @@ spec:
         app: web2048-autoscaler
     spec:
       containers:
-      - name: web2048-autoscaler
-        # image: yourACRname.azurecr.io/web2048-autoscaler:latest
+      - name: web2048-autoscaler  
         image: saxenavijay62/web2048-autoscaler:latest
+     # image: yourACRname.azurecr.io/web2048-autoscaler:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
